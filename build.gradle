@@ -9,13 +9,13 @@ buildscript {
 
 subprojects {
     ext.version_number = "0.6.4"
-    ext.group_info = "com.wavesplatform"
+    ext.group_info = "com.tacplatform"
 }
 
 apply plugin: 'io.codearte.nexus-staging'
 
 nexusStaging {
-    packageGroup = "com.wavesplatform"
+    packageGroup = "com.tacplatform"
     username = whisperSonatypeUsername
     password = whisperSonatypePassword
     numberOfRetries = 100
